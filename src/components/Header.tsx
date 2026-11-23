@@ -15,7 +15,7 @@ export function Header() {
     <header className="sticky top-4 z-50 mx-auto w-[min(1100px,92%)]">
       <nav className="glass flex items-center justify-between rounded-full px-5 py-3">
         <Link to="/" className="flex items-center gap-2 font-display text-lg font-bold">
-          <Sparkles className="h-5 w-5 text-primary" /> Nexus<span className="text-primary">Study</span>
+          <Sparkles className="h-5 w-5 text-primary" /> Orbit<span className="text-primary">Academy</span>
         </Link>
         <ul className="hidden gap-1 md:flex">
           {links.map((l) => (

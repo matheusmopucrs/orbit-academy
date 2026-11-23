@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, PlayCircle, ClipboardCheck } from "lucide-react";
 import { Cube3D } from "@/components/Cube3D";
 
 export const Route = createFileRoute("/")({
-  head: () => ({ meta: [{ title: "Learn smarter — Nexus Study" }, { name: "description", content: "A free study hub with ENEM, Computer Science (PUCRS) and Software Engineering courses, videos and tests." }, { property: "og:title", content: "Learn smarter — Nexus Study" }, { property: "og:description", content: "A free study hub with ENEM, Computer Science (PUCRS) and Software Engineering courses, videos and tests." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
+  head: () => ({ meta: [{ title: "Learn smarter — Orbit Academy" }, { name: "description", content: "A free study hub with ENEM, Computer Science (PUCRS) and Software Engineering courses, videos and tests." }, { property: "og:title", content: "Learn smarter — Orbit Academy" }, { property: "og:description", content: "A free study hub with ENEM, Computer Science (PUCRS) and Software Engineering courses, videos and tests." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
   component: Index,
 });
 
@@ -28,7 +28,7 @@ function Index() {
             Learn <span className="text-gradient">smarter</span>,<br />not harder.
           </h1>
           <p className="mt-6 max-w-md text-lg text-muted-foreground">
-            Nexus Study brings together everything we learn — from school to college — in one place. Courses, videos, tests and the moments we shared along the way.
+            Orbit Academy brings together everything we learn — from school to college — in one place. Courses, videos, tests and the moments we shared along the way.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link to="/courses" className="bg-gradient-brand inline-flex items-center gap-2 rounded-full px-6 py-3 font-semibold text-primary-foreground shadow-glow transition hover:scale-105">

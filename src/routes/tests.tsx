@@ -3,7 +3,7 @@ import { useState } from "react";
 import { PageHero } from "@/components/PageHero";
 
 export const Route = createFileRoute("/tests")({
-  head: () => ({ meta: [{ title: "Tests — Nexus Study" }, { name: "description", content: "Practice tests to check what you learned." }, { property: "og:title", content: "Tests — Nexus Study" }, { property: "og:description", content: "Practice tests to check what you learned." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
+  head: () => ({ meta: [{ title: "Tests — Orbit Academy" }, { name: "description", content: "Practice tests to check what you learned." }, { property: "og:title", content: "Tests — Orbit Academy" }, { property: "og:description", content: "Practice tests to check what you learned." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
   component: Tests,
 });
 

@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Nexus Study" },
+      { title: "Orbit Academy" },
       { name: "description", content: "Study courses for ENEM, Computer Science and Software Engineering." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -129,7 +129,7 @@ function RootComponent() {
       <main className="pb-24">
         <Outlet />
       </main>
-      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">© 2026 Nexus Study · Made by students, for students</footer>
+      <footer className="border-t border-border py-8 text-center text-sm text-muted-foreground">© 2026 Orbit Academy · Made by students, for students</footer>
     </QueryClientProvider>
   );
 }

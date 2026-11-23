@@ -4,7 +4,7 @@ import { PageHero } from "@/components/PageHero";
 import { courses } from "@/lib/courses";
 
 export const Route = createFileRoute("/extra")({
-  head: () => ({ meta: [{ title: "Extra — Nexus Study" }, { name: "description", content: "Photos, college activities, old tests and other extra content." }, { property: "og:title", content: "Extra — Nexus Study" }, { property: "og:description", content: "Photos, college activities, old tests and other extra content." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
+  head: () => ({ meta: [{ title: "Extra — Orbit Academy" }, { name: "description", content: "Photos, college activities, old tests and other extra content." }, { property: "og:title", content: "Extra — Orbit Academy" }, { property: "og:description", content: "Photos, college activities, old tests and other extra content." }, { property: "og:type", content: "website" }, { name: "twitter:card", content: "summary_large_image" }] }),
   component: Extra,
 });
 
