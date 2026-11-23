@@ -28,3 +28,9 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Application structure
+- Course content is bundled from `src/content/courses/<course-id>/*.md` through Vite raw imports; front matter defines title, module and order so adding source files extends the curriculum without a backend.
+- Render Markdown with react-markdown and remark-gfm without raw HTML plugins, keeping authored content safe and supporting tables and code blocks.
+- Keep the Three.js planet dynamically imported behind ClientOnly; course pages remain server-rendered and do not depend on WebGL.
+- Keep theme state in a shared provider and store only the device theme preference in localStorage; all scene and interface colors come from global semantic CSS tokens.
